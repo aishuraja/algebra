@@ -1,0 +1,4 @@
+import numpy
+n=int(input())
+my_array = numpy.array([ input().split() for i in range(n)],float)
+print (round(numpy.linalg.det(my_array),2))
